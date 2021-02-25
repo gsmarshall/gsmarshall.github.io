@@ -1,7 +1,7 @@
 # Sam Marshall - Open Source GIS
 A small collection of projects related to spatial analysis, cartography, and GIS.
 
-- first item in an example list
+- [Gravity Model of Spatial Interaction in QGIS](gravity/gravity.md)
 - the second thing
 
 1. numbered lists can start with any number 
