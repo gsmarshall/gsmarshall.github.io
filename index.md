@@ -7,4 +7,4 @@ A small collection of projects related to spatial analysis, cartography, and GIS
 1. numbered lists can start with any number 
 2. even the same one
 
-Link to the course website is [here] (https://gis4dev.github.io)
+Link to the course website is [here](https://gis4dev.github.io)
