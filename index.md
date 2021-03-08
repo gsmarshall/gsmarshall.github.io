@@ -14,3 +14,4 @@ A small collection of projects related to spatial analysis, cartography, and GIS
 ## Blogs
 
 - [What is Open Source GIS?](blogs/open-source.md)
+- [GIS as a Science](blogs/gis-science.md)
