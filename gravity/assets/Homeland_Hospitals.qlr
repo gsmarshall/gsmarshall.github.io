@@ -1,0 +1,705 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+    <customproperties/>
+    <layer-tree-layer source=" crs='EPSG:3857' filter='' url='https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer/0'" name="Homeland_Hospitals" patch_size="-1,-1" checked="Qt::Unchecked" providerKey="arcgisfeatureserver" expanded="1" legend_exp="" id="0_8d745e61_a679_4ff1_ad9f_0a6d9c9ac92b" legend_split_behavior="0">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1" minScale="100000000" simplifyDrawingHints="0" geometry="Point" autoRefreshEnabled="0" wkbType="Point" readOnly="0" refreshOnNotifyEnabled="0" type="vector" maxScale="0" simplifyAlgorithm="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" labelsEnabled="0" refreshOnNotifyMessage="">
+      <extent>
+        <xmin>-19663504.13074991852045059</xmin>
+        <ymin>-1607536.44242472061887383</ymin>
+        <xmax>16221974.06301853433251381</xmax>
+        <ymax>11503154.6064686756581068</ymax>
+      </extent>
+      <id>0_8d745e61_a679_4ff1_ad9f_0a6d9c9ac92b</id>
+      <datasource> crs='EPSG:3857' filter='' url='https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer/0'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Homeland_Hospitals</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer/0</identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title>Hospitals</title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links>
+          <link url="https://services1.arcgis.com/Hp6G80Pky0om7QvQ/ArcGIS/rest/services/Hospitals_1/FeatureServer/0" mimeType="" name="Source" type="WWW:LINK" format="" size="" description=""/>
+        </links>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",DATUM["World Geodetic System 1984",ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["World - 85°S to 85°N"],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+            <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+            <srsid>3857</srsid>
+            <srid>3857</srid>
+            <authid>EPSG:3857</authid>
+            <description>WGS 84 / Pseudo-Mercator</description>
+            <projectionacronym>merc</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" miny="-1607536.44240000005811453" minz="0" maxy="11503154.60649999976158142" minx="-19663504.1306999996304512" maxx="16221974.06299999915063381" crs="EPSG:3857" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="">arcgisfeatureserver</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal durationField="" startField="" endExpression="" mode="0" fixedDuration="0" startExpression="" enabled="0" durationUnit="min" accumulate="0" endField="">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 enableorderby="0" type="singleSymbol" forceraster="0" symbollevels="0">
+        <symbols>
+          <symbol type="marker" name="0" force_rhr="0" clip_to_extent="1" alpha="1">
+            <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="225,89,137,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" name="name" value=""/>
+                  <Option name="properties"/>
+                  <Option type="QString" name="type" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="dualview/previewExpressions">
+          <value>"NAME"</value>
+        </property>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory opacity="1" barWidth="5" showAxis="1" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" sizeScale="3x:0,0,0,0,0,0" height="15" penWidth="0" lineSizeType="MM" scaleDependency="Area" penColor="#000000" enabled="0" minScaleDenominator="0" backgroundAlpha="255" direction="0" spacingUnitScale="3x:0,0,0,0,0,0" width="15" maxScaleDenominator="1e+08" minimumSize="0" spacing="5" labelPlacementMethod="XHeight" sizeType="MM" scaleBasedVisibility="0" penAlpha="255" spacingUnit="MM" rotationOffset="270">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
+          <axisSymbol>
+            <symbol type="line" name="" force_rhr="0" clip_to_extent="1" alpha="1">
+              <layer locked="0" enabled="1" class="SimpleLine" pass="0">
+                <prop k="align_dash_pattern" v="0"/>
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="dash_pattern_offset" v="0"/>
+                <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="dash_pattern_offset_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="35,35,35,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0.26"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="ring_filter" v="0"/>
+                <prop k="tweak_dash_pattern_on_corners" v="0"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option type="QString" name="name" value=""/>
+                    <Option name="properties"/>
+                    <Option type="QString" name="type" value="collection"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" dist="0" obstacle="0" zIndex="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="OBJECTID" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADDRESS" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CITY" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ZIP" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ZIP4" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TELEPHONE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TYPE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATUS" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPULATION" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTY" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTYFIPS" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNTRY" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LATITUDE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGITUDE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAICS_CODE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAICS_DESC" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SOURCE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SOURCEDATE" configurationFlags="None">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAL_METHOD" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="VAL_DATE" configurationFlags="None">
+          <editWidget type="DateTime">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WEBSITE" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATE_ID" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ALT_NAME" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ST_FIPS" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OWNER" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TTL_STAFF" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BEDS" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TRAUMA" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HELIPAD" configurationFlags="None">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="ID" index="1" name=""/>
+        <alias field="NAME" index="2" name=""/>
+        <alias field="ADDRESS" index="3" name=""/>
+        <alias field="CITY" index="4" name=""/>
+        <alias field="STATE" index="5" name=""/>
+        <alias field="ZIP" index="6" name=""/>
+        <alias field="ZIP4" index="7" name=""/>
+        <alias field="TELEPHONE" index="8" name=""/>
+        <alias field="TYPE" index="9" name=""/>
+        <alias field="STATUS" index="10" name=""/>
+        <alias field="POPULATION" index="11" name=""/>
+        <alias field="COUNTY" index="12" name=""/>
+        <alias field="COUNTYFIPS" index="13" name=""/>
+        <alias field="COUNTRY" index="14" name=""/>
+        <alias field="LATITUDE" index="15" name=""/>
+        <alias field="LONGITUDE" index="16" name=""/>
+        <alias field="NAICS_CODE" index="17" name=""/>
+        <alias field="NAICS_DESC" index="18" name=""/>
+        <alias field="SOURCE" index="19" name=""/>
+        <alias field="SOURCEDATE" index="20" name=""/>
+        <alias field="VAL_METHOD" index="21" name=""/>
+        <alias field="VAL_DATE" index="22" name=""/>
+        <alias field="WEBSITE" index="23" name=""/>
+        <alias field="STATE_ID" index="24" name=""/>
+        <alias field="ALT_NAME" index="25" name=""/>
+        <alias field="ST_FIPS" index="26" name=""/>
+        <alias field="OWNER" index="27" name=""/>
+        <alias field="TTL_STAFF" index="28" name=""/>
+        <alias field="BEDS" index="29" name=""/>
+        <alias field="TRAUMA" index="30" name=""/>
+        <alias field="HELIPAD" index="31" name=""/>
+      </aliases>
+      <defaults>
+        <default field="OBJECTID" expression="" applyOnUpdate="0"/>
+        <default field="ID" expression="" applyOnUpdate="0"/>
+        <default field="NAME" expression="" applyOnUpdate="0"/>
+        <default field="ADDRESS" expression="" applyOnUpdate="0"/>
+        <default field="CITY" expression="" applyOnUpdate="0"/>
+        <default field="STATE" expression="" applyOnUpdate="0"/>
+        <default field="ZIP" expression="" applyOnUpdate="0"/>
+        <default field="ZIP4" expression="" applyOnUpdate="0"/>
+        <default field="TELEPHONE" expression="" applyOnUpdate="0"/>
+        <default field="TYPE" expression="" applyOnUpdate="0"/>
+        <default field="STATUS" expression="" applyOnUpdate="0"/>
+        <default field="POPULATION" expression="" applyOnUpdate="0"/>
+        <default field="COUNTY" expression="" applyOnUpdate="0"/>
+        <default field="COUNTYFIPS" expression="" applyOnUpdate="0"/>
+        <default field="COUNTRY" expression="" applyOnUpdate="0"/>
+        <default field="LATITUDE" expression="" applyOnUpdate="0"/>
+        <default field="LONGITUDE" expression="" applyOnUpdate="0"/>
+        <default field="NAICS_CODE" expression="" applyOnUpdate="0"/>
+        <default field="NAICS_DESC" expression="" applyOnUpdate="0"/>
+        <default field="SOURCE" expression="" applyOnUpdate="0"/>
+        <default field="SOURCEDATE" expression="" applyOnUpdate="0"/>
+        <default field="VAL_METHOD" expression="" applyOnUpdate="0"/>
+        <default field="VAL_DATE" expression="" applyOnUpdate="0"/>
+        <default field="WEBSITE" expression="" applyOnUpdate="0"/>
+        <default field="STATE_ID" expression="" applyOnUpdate="0"/>
+        <default field="ALT_NAME" expression="" applyOnUpdate="0"/>
+        <default field="ST_FIPS" expression="" applyOnUpdate="0"/>
+        <default field="OWNER" expression="" applyOnUpdate="0"/>
+        <default field="TTL_STAFF" expression="" applyOnUpdate="0"/>
+        <default field="BEDS" expression="" applyOnUpdate="0"/>
+        <default field="TRAUMA" expression="" applyOnUpdate="0"/>
+        <default field="HELIPAD" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="OBJECTID" constraints="3" unique_strength="1" notnull_strength="1" exp_strength="0"/>
+        <constraint field="ID" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="NAME" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="ADDRESS" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="CITY" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="STATE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="ZIP" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="ZIP4" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="TELEPHONE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="TYPE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="STATUS" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="POPULATION" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="COUNTY" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="COUNTYFIPS" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="COUNTRY" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="LATITUDE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="LONGITUDE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="NAICS_CODE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="NAICS_DESC" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="SOURCE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="SOURCEDATE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="VAL_METHOD" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="VAL_DATE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="WEBSITE" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="STATE_ID" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="ALT_NAME" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="ST_FIPS" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="OWNER" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="TTL_STAFF" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="BEDS" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="TRAUMA" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+        <constraint field="HELIPAD" constraints="0" unique_strength="0" notnull_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="OBJECTID" desc="" exp=""/>
+        <constraint field="ID" desc="" exp=""/>
+        <constraint field="NAME" desc="" exp=""/>
+        <constraint field="ADDRESS" desc="" exp=""/>
+        <constraint field="CITY" desc="" exp=""/>
+        <constraint field="STATE" desc="" exp=""/>
+        <constraint field="ZIP" desc="" exp=""/>
+        <constraint field="ZIP4" desc="" exp=""/>
+        <constraint field="TELEPHONE" desc="" exp=""/>
+        <constraint field="TYPE" desc="" exp=""/>
+        <constraint field="STATUS" desc="" exp=""/>
+        <constraint field="POPULATION" desc="" exp=""/>
+        <constraint field="COUNTY" desc="" exp=""/>
+        <constraint field="COUNTYFIPS" desc="" exp=""/>
+        <constraint field="COUNTRY" desc="" exp=""/>
+        <constraint field="LATITUDE" desc="" exp=""/>
+        <constraint field="LONGITUDE" desc="" exp=""/>
+        <constraint field="NAICS_CODE" desc="" exp=""/>
+        <constraint field="NAICS_DESC" desc="" exp=""/>
+        <constraint field="SOURCE" desc="" exp=""/>
+        <constraint field="SOURCEDATE" desc="" exp=""/>
+        <constraint field="VAL_METHOD" desc="" exp=""/>
+        <constraint field="VAL_DATE" desc="" exp=""/>
+        <constraint field="WEBSITE" desc="" exp=""/>
+        <constraint field="STATE_ID" desc="" exp=""/>
+        <constraint field="ALT_NAME" desc="" exp=""/>
+        <constraint field="ST_FIPS" desc="" exp=""/>
+        <constraint field="OWNER" desc="" exp=""/>
+        <constraint field="TTL_STAFF" desc="" exp=""/>
+        <constraint field="BEDS" desc="" exp=""/>
+        <constraint field="TRAUMA" desc="" exp=""/>
+        <constraint field="HELIPAD" desc="" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="1" sortExpression="&quot;TYPE&quot;" actionWidgetStyle="dropDown">
+        <columns>
+          <column type="field" name="OBJECTID" hidden="0" width="-1"/>
+          <column type="field" name="ID" hidden="0" width="-1"/>
+          <column type="field" name="NAME" hidden="0" width="-1"/>
+          <column type="field" name="ADDRESS" hidden="0" width="-1"/>
+          <column type="field" name="CITY" hidden="0" width="-1"/>
+          <column type="field" name="STATE" hidden="0" width="-1"/>
+          <column type="field" name="ZIP" hidden="0" width="-1"/>
+          <column type="field" name="ZIP4" hidden="0" width="-1"/>
+          <column type="field" name="TELEPHONE" hidden="0" width="-1"/>
+          <column type="field" name="TYPE" hidden="0" width="-1"/>
+          <column type="field" name="STATUS" hidden="0" width="-1"/>
+          <column type="field" name="POPULATION" hidden="0" width="-1"/>
+          <column type="field" name="COUNTY" hidden="0" width="-1"/>
+          <column type="field" name="COUNTYFIPS" hidden="0" width="-1"/>
+          <column type="field" name="COUNTRY" hidden="0" width="-1"/>
+          <column type="field" name="LATITUDE" hidden="0" width="-1"/>
+          <column type="field" name="LONGITUDE" hidden="0" width="-1"/>
+          <column type="field" name="NAICS_CODE" hidden="0" width="-1"/>
+          <column type="field" name="NAICS_DESC" hidden="0" width="-1"/>
+          <column type="field" name="SOURCE" hidden="0" width="-1"/>
+          <column type="field" name="SOURCEDATE" hidden="0" width="-1"/>
+          <column type="field" name="VAL_METHOD" hidden="0" width="-1"/>
+          <column type="field" name="VAL_DATE" hidden="0" width="-1"/>
+          <column type="field" name="WEBSITE" hidden="0" width="-1"/>
+          <column type="field" name="STATE_ID" hidden="0" width="-1"/>
+          <column type="field" name="ALT_NAME" hidden="0" width="-1"/>
+          <column type="field" name="ST_FIPS" hidden="0" width="-1"/>
+          <column type="field" name="OWNER" hidden="0" width="-1"/>
+          <column type="field" name="TTL_STAFF" hidden="0" width="-1"/>
+          <column type="field" name="BEDS" hidden="0" width="-1"/>
+          <column type="field" name="TRAUMA" hidden="0" width="-1"/>
+          <column type="field" name="HELIPAD" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field editable="1" name="ADDRESS"/>
+        <field editable="1" name="ALT_NAME"/>
+        <field editable="1" name="BEDS"/>
+        <field editable="1" name="CITY"/>
+        <field editable="1" name="COUNTRY"/>
+        <field editable="1" name="COUNTY"/>
+        <field editable="1" name="COUNTYFIPS"/>
+        <field editable="1" name="HELIPAD"/>
+        <field editable="1" name="ID"/>
+        <field editable="1" name="LATITUDE"/>
+        <field editable="1" name="LONGITUDE"/>
+        <field editable="1" name="NAICS_CODE"/>
+        <field editable="1" name="NAICS_DESC"/>
+        <field editable="1" name="NAME"/>
+        <field editable="1" name="OBJECTID"/>
+        <field editable="1" name="OWNER"/>
+        <field editable="1" name="POPULATION"/>
+        <field editable="1" name="SOURCE"/>
+        <field editable="1" name="SOURCEDATE"/>
+        <field editable="1" name="STATE"/>
+        <field editable="1" name="STATE_ID"/>
+        <field editable="1" name="STATUS"/>
+        <field editable="1" name="ST_FIPS"/>
+        <field editable="1" name="TELEPHONE"/>
+        <field editable="1" name="TRAUMA"/>
+        <field editable="1" name="TTL_STAFF"/>
+        <field editable="1" name="TYPE"/>
+        <field editable="1" name="VAL_DATE"/>
+        <field editable="1" name="VAL_METHOD"/>
+        <field editable="1" name="WEBSITE"/>
+        <field editable="1" name="ZIP"/>
+        <field editable="1" name="ZIP4"/>
+      </editable>
+      <labelOnTop>
+        <field labelOnTop="0" name="ADDRESS"/>
+        <field labelOnTop="0" name="ALT_NAME"/>
+        <field labelOnTop="0" name="BEDS"/>
+        <field labelOnTop="0" name="CITY"/>
+        <field labelOnTop="0" name="COUNTRY"/>
+        <field labelOnTop="0" name="COUNTY"/>
+        <field labelOnTop="0" name="COUNTYFIPS"/>
+        <field labelOnTop="0" name="HELIPAD"/>
+        <field labelOnTop="0" name="ID"/>
+        <field labelOnTop="0" name="LATITUDE"/>
+        <field labelOnTop="0" name="LONGITUDE"/>
+        <field labelOnTop="0" name="NAICS_CODE"/>
+        <field labelOnTop="0" name="NAICS_DESC"/>
+        <field labelOnTop="0" name="NAME"/>
+        <field labelOnTop="0" name="OBJECTID"/>
+        <field labelOnTop="0" name="OWNER"/>
+        <field labelOnTop="0" name="POPULATION"/>
+        <field labelOnTop="0" name="SOURCE"/>
+        <field labelOnTop="0" name="SOURCEDATE"/>
+        <field labelOnTop="0" name="STATE"/>
+        <field labelOnTop="0" name="STATE_ID"/>
+        <field labelOnTop="0" name="STATUS"/>
+        <field labelOnTop="0" name="ST_FIPS"/>
+        <field labelOnTop="0" name="TELEPHONE"/>
+        <field labelOnTop="0" name="TRAUMA"/>
+        <field labelOnTop="0" name="TTL_STAFF"/>
+        <field labelOnTop="0" name="TYPE"/>
+        <field labelOnTop="0" name="VAL_DATE"/>
+        <field labelOnTop="0" name="VAL_METHOD"/>
+        <field labelOnTop="0" name="WEBSITE"/>
+        <field labelOnTop="0" name="ZIP"/>
+        <field labelOnTop="0" name="ZIP4"/>
+      </labelOnTop>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
