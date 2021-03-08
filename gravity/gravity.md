@@ -20,7 +20,7 @@ This model can be generalized to any set of source and target features.
 
 ## Gravity Model Details
 The gravity model accepts as input two sets of vector features, one representing the source features and the other representing the target features, and produces as output a single vector layer representing the likely zone of influence that each target feature occupies. Each input layer must have at least two fields: one that uniquely identifies each feature and one that contains a weight value for each feature. The potential for interaction between any pair of source and target features is calculated based the following formula:
-(sourceWeight)^&lambda * (targetWeight)^&alpha / (distance)^&beta
+(sourceWeight)^&lambda; * (targetWeight)^&alpha; / (distance)^&beta;
 where &lambda, &alpha, and &beta are constant parameters used to customize the behavior of the model, as described in <a href="https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/">The Geography of Transport Systems</a> (Rodrigue).
 
 Each source feature is assigned to the target feature with which it has the most potential interaction, and the final service areas are created by grouping towns that share a target feature, as in the following model. [![Gravity Model](assets/GravityModel.png)](assets)
