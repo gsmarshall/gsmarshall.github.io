@@ -5,7 +5,7 @@ title: Gravity Model of Spatial Interaction in QGIS
 
 ## Purpose and Overview
 
-This collection of QGIS models implements a gravity model of spatial interaction. The models are implemented around a case study of hospital service regions in the northeastern United States, but could be applied to any number of similar spatial interaction processes. Results can be accessed via [web map](assets/web_map)
+This collection of QGIS models implements a gravity model of spatial interaction. The models are implemented around a case study of hospital service regions in the northeastern United States, but could be applied to any number of similar spatial interaction processes. Results can be accessed via [web map](assets/qgis2web_2021_03_08-21_44_27_115099)
 
 The core gravity model is adapted from that described in <a href="https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/">The Geography of Transport Systems</a> (Rodrigue). It accepts as input two sets of vector features, one representing the source features and the other representing the target features, and produces as output a single vector layer representing the likely zone of influence that each target feature occupies. The potential for interaction between any pair of source and target features is calculated based on user-specified weight fields for the source and target features and the distance between the two features.
 
@@ -40,7 +40,7 @@ Each source feature is assigned to the target feature with which it has the most
 
 
 ## Results
-We can loosely assess the quality of the model by comparing the [hospital service areas](assets/web_map) produced by the gravity model to those provided by the [Dartmouth Healthcare Atlas](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries), which are compiled based on real-world billing reports for each hospital. The service areas produced by my model are comparable to Dartmouth service areas in certain places where there are relatively few hospitals, but are largely inconsistent with the actual service areas. This could be improved by experimenting with different parameters for the potential interaction calculation, but is also partly the result of spatial interaction simply being more complex than this model accounts for.
+We can loosely assess the quality of the model by comparing the [hospital service areas](assets/qgis2web_2021_03_08-21_44_27_115099) produced by the gravity model to those provided by the [Dartmouth Healthcare Atlas](https://atlasdata.dartmouth.edu/downloads/supplemental#boundaries), which are compiled based on real-world billing reports for each hospital. The service areas produced by my model are comparable to Dartmouth service areas in certain places where there are relatively few hospitals, but are largely inconsistent with the actual service areas. This could be improved by experimenting with different parameters for the potential interaction calculation, but is also partly the result of spatial interaction simply being more complex than this model accounts for.
 
 ## Data Sources
 - Town boundaries and population data are sourced from the U.S. census and compiled by [Joseph Holler](josephholler.github.io), and can be downloaded [here](https://gis4dev.github.io/lessons/assets/netown.gpkg)
