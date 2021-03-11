@@ -4,7 +4,7 @@ layout: default
 ---
 
 # Sam Marshall - Open Source GIS
-A small collection of projects related to spatial analysis, cartography, and GIS.
+A small collection of projects related to spatial analysis, cartography, and GIS. View on GitHub [here](https://github.com/gsmarshall/gsmarshall.github.io)
 
 ## GIS Analyses
 
