@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Reflection 2: GIS as Reproducible Science
+title: Is GIS a Reproducible Science?
 ---
-### Is GIS a Reproducible Science?
 
 The GIS work I have done so far is most closely aligned with the "GIS as a tool" position outlined by [Wright et al (1997)](https://www.tandfonline.com/doi/abs/10.1111/0004-5608.872057). As an undergraduate geography major, I have mostly encountered GIS in the context of the social and environmental problems that geography aims to address - particularly issues of land use, development, and environmental justice. In these contexts it lies within the problem it is used to address, and its implementation and repercussions are discussed in relation to that problem. Some more advanced classes, including this one, have started to bridge the gap into the "toolmaking" aspect of GIS, but until now none have delved deeply into GIS as a science in itself.
 
