@@ -11,7 +11,8 @@ A small collection of projects related to spatial analysis, cartography, and GIS
 - [Gravity Model of Spatial Interaction in QGIS](gravity/gravity.md)
 
 
-## Blogs
+## Blog Posts
 
 - [What is Open Source GIS?](blogs/open-source.md)
 - [GIS as a Science](blogs/gis-science.md)
+- [Error and Uncertainty in GIS](blogs/error-uncertainty.md)
