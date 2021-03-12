@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Reflection 1: What is Open Source GIS?
+title: What is Open Source GIS?
 ---
-
-## What is Open Source GIS?
 
   Thinking about open source software and open source GIS is exciting for me in part because it seems particularly well suited for the current historical and cultural moment. The decentralized model of knowledge creation meshes well with many aspects of how pop culture is created and consumed and how social movements have manifested themselves in recent years - there is something about it that just seems like a really good idea. However, open source is not an inherently perfect model, and the way it is implemented should be carefully designed and tailored to the application and context. 
   
