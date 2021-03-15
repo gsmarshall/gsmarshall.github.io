@@ -2,251 +2,251 @@
 <Option type="Map">
   <Option type="Map" name="children">
     <Option type="Map" name="native:extractbyexpression_1">
-      <Option type="bool" value="true" name="active"/>
+      <Option type="bool" name="active" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:extractbyexpression" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
+      <Option type="QString" name="alg_id" value="native:extractbyexpression"/>
+      <Option type="QString" name="color" value=""/>
       <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="655.2" name="component_pos_x"/>
-        <Option type="double" value="131.8" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="655.2"/>
+        <Option type="double" name="component_pos_y" value="131.8"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
       </Option>
-      <Option type="QString" value="Extract open hospitals" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="454.4000000000001" name="component_pos_x"/>
-      <Option type="double" value="234.39999999999998" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" name="component_description" value="Extract open hospitals"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="454.4000000000001"/>
+      <Option type="double" name="component_pos_y" value="234.39999999999998"/>
+      <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
-      <Option type="QString" value="native:extractbyexpression_1" name="id"/>
+      <Option type="QString" name="id" value="native:extractbyexpression_1"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
       <Option type="Map" name="params">
         <Option type="List" name="EXPRESSION">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="&quot;STATUS&quot; = 'OPEN' AND &quot;BEDS&quot; > -1" name="static_value"/>
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="&quot;STATUS&quot; = 'OPEN' AND &quot;BEDS&quot; > -1"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" value="native:reprojectlayer_1" name="child_id"/>
-            <Option type="QString" value="OUTPUT" name="output_name"/>
-            <Option type="int" value="1" name="source"/>
+            <Option type="QString" name="child_id" value="native:reprojectlayer_1"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:extractbyexpression_2">
-      <Option type="bool" value="true" name="active"/>
+      <Option type="bool" name="active" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:extractbyexpression" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
+      <Option type="QString" name="alg_id" value="native:extractbyexpression"/>
+      <Option type="QString" name="color" value=""/>
       <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="456.8" name="component_pos_x"/>
-        <Option type="double" value="251" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="456.8"/>
+        <Option type="double" name="component_pos_y" value="251"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
       </Option>
-      <Option type="QString" value="Extract public hospitals" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="458.40000000000003" name="component_pos_x"/>
-      <Option type="double" value="303.20000000000005" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" name="component_description" value="Extract public hospitals"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="458.40000000000003"/>
+      <Option type="double" name="component_pos_y" value="303.20000000000005"/>
+      <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
-      <Option type="QString" value="native:extractbyexpression_2" name="id"/>
+      <Option type="QString" name="id" value="native:extractbyexpression_2"/>
       <Option type="Map" name="outputs">
         <Option type="Map" name="Public Hospitals">
-          <Option type="QString" value="native:extractbyexpression_2" name="child_id"/>
-          <Option type="QString" value="" name="color"/>
+          <Option type="QString" name="child_id" value="native:extractbyexpression_2"/>
+          <Option type="QString" name="color" value=""/>
           <Option type="Map" name="comment">
-            <Option type="QString" value="" name="color"/>
-            <Option type="QString" value="" name="component_description"/>
-            <Option type="double" value="60" name="component_height"/>
-            <Option type="double" value="0" name="component_pos_x"/>
-            <Option type="double" value="0" name="component_pos_y"/>
-            <Option type="double" value="100" name="component_width"/>
-            <Option type="bool" value="true" name="outputs_collapsed"/>
-            <Option type="bool" value="true" name="parameters_collapsed"/>
+            <Option type="QString" name="color" value=""/>
+            <Option type="QString" name="component_description" value=""/>
+            <Option type="double" name="component_height" value="60"/>
+            <Option type="double" name="component_pos_x" value="0"/>
+            <Option type="double" name="component_pos_y" value="0"/>
+            <Option type="double" name="component_width" value="100"/>
+            <Option type="bool" name="outputs_collapsed" value="true"/>
+            <Option type="bool" name="parameters_collapsed" value="true"/>
           </Option>
-          <Option type="QString" value="Public Hospitals" name="component_description"/>
-          <Option type="double" value="30" name="component_height"/>
-          <Option type="double" value="679.9999999999999" name="component_pos_x"/>
-          <Option type="double" value="336.19999999999993" name="component_pos_y"/>
-          <Option type="double" value="200" name="component_width"/>
+          <Option type="QString" name="component_description" value="Public Hospitals"/>
+          <Option type="double" name="component_height" value="30"/>
+          <Option type="double" name="component_pos_x" value="679.9999999999999"/>
+          <Option type="double" name="component_pos_y" value="336.19999999999993"/>
+          <Option type="double" name="component_width" value="200"/>
           <Option type="invalid" name="default_value"/>
-          <Option type="bool" value="false" name="mandatory"/>
-          <Option type="QString" value="Public Hospitals" name="name"/>
-          <Option type="QString" value="OUTPUT" name="output_name"/>
-          <Option type="bool" value="true" name="outputs_collapsed"/>
-          <Option type="bool" value="true" name="parameters_collapsed"/>
+          <Option type="bool" name="mandatory" value="false"/>
+          <Option type="QString" name="name" value="Public Hospitals"/>
+          <Option type="QString" name="output_name" value="OUTPUT"/>
+          <Option type="bool" name="outputs_collapsed" value="true"/>
+          <Option type="bool" name="parameters_collapsed" value="true"/>
         </Option>
       </Option>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
       <Option type="Map" name="params">
         <Option type="List" name="EXPRESSION">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="&quot;TYPE&quot; = 'WOMEN' OR &quot;TYPE&quot; = 'GENERAL ACUTE CARE' OR &quot;TYPE&quot; = 'CRITICAL ACCESS' OR &quot;TYPE&quot; = 'CHILDREN'   " name="static_value"/>
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="&quot;TYPE&quot; = 'WOMEN' OR &quot;TYPE&quot; = 'GENERAL ACUTE CARE' OR &quot;TYPE&quot; = 'CRITICAL ACCESS' OR &quot;TYPE&quot; = 'CHILDREN'   "/>
           </Option>
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="QString" value="native:extractbyexpression_1" name="child_id"/>
-            <Option type="QString" value="OUTPUT" name="output_name"/>
-            <Option type="int" value="1" name="source"/>
+            <Option type="QString" name="child_id" value="native:extractbyexpression_1"/>
+            <Option type="QString" name="output_name" value="OUTPUT"/>
+            <Option type="int" name="source" value="1"/>
           </Option>
         </Option>
       </Option>
     </Option>
     <Option type="Map" name="native:reprojectlayer_1">
-      <Option type="bool" value="true" name="active"/>
+      <Option type="bool" name="active" value="true"/>
       <Option name="alg_config"/>
-      <Option type="QString" value="native:reprojectlayer" name="alg_id"/>
-      <Option type="QString" value="" name="color"/>
+      <Option type="QString" name="alg_id" value="native:reprojectlayer"/>
+      <Option type="QString" name="color" value=""/>
       <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="737.6" name="component_pos_x"/>
-        <Option type="double" value="346.20000000000005" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="737.6"/>
+        <Option type="double" name="component_pos_y" value="346.20000000000005"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
       </Option>
-      <Option type="QString" value="Reproject to Match Input CRS" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="446.4000000000001" name="component_pos_x"/>
-      <Option type="double" value="156.79999999999998" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
+      <Option type="QString" name="component_description" value="Reproject to Match Input CRS"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="446.4000000000001"/>
+      <Option type="double" name="component_pos_y" value="156.79999999999998"/>
+      <Option type="double" name="component_width" value="200"/>
       <Option name="dependencies"/>
-      <Option type="QString" value="native:reprojectlayer_1" name="id"/>
+      <Option type="QString" name="id" value="native:reprojectlayer_1"/>
       <Option name="outputs"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
       <Option type="Map" name="params">
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="0_8d745e61_a679_4ff1_ad9f_0a6d9c9ac92b" name="static_value"/>
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value="0_8d745e61_a679_4ff1_ad9f_0a6d9c9ac92b"/>
           </Option>
         </Option>
         <Option type="List" name="OPERATION">
           <Option type="Map">
-            <Option type="int" value="2" name="source"/>
-            <Option type="QString" value="" name="static_value"/>
+            <Option type="int" name="source" value="2"/>
+            <Option type="QString" name="static_value" value=""/>
           </Option>
         </Option>
         <Option type="List" name="TARGET_CRS">
           <Option type="Map">
-            <Option type="QString" value="InputFeatureCRS" name="parameter_name"/>
-            <Option type="int" value="0" name="source"/>
+            <Option type="QString" name="parameter_name" value="InputFeatureCRS"/>
+            <Option type="int" name="source" value="0"/>
           </Option>
         </Option>
       </Option>
     </Option>
   </Option>
   <Option type="Map" name="designerParameterValues">
-    <Option type="bool" value="true" name="VERBOSE_LOG"/>
+    <Option type="bool" name="VERBOSE_LOG" value="true"/>
     <Option type="QgsProcessingOutputLayerDefinition" name="native:extractbyexpression_1:Open Hospitals">
       <Option type="Map">
         <Option type="Map" name="create_options">
-          <Option type="QString" value="System" name="fileEncoding"/>
+          <Option type="QString" name="fileEncoding" value="System"/>
         </Option>
         <Option type="Map" name="sink">
-          <Option type="bool" value="true" name="active"/>
-          <Option type="int" value="1" name="type"/>
-          <Option type="QString" value="TEMPORARY_OUTPUT" name="val"/>
+          <Option type="bool" name="active" value="true"/>
+          <Option type="int" name="type" value="1"/>
+          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
         </Option>
       </Option>
     </Option>
     <Option type="QgsProcessingOutputLayerDefinition" name="native:extractbyexpression_2:Public Hospitals">
       <Option type="Map">
         <Option type="Map" name="create_options">
-          <Option type="QString" value="System" name="fileEncoding"/>
+          <Option type="QString" name="fileEncoding" value="System"/>
         </Option>
         <Option type="Map" name="sink">
-          <Option type="bool" value="true" name="active"/>
-          <Option type="int" value="1" name="type"/>
-          <Option type="QString" value="TEMPORARY_OUTPUT" name="val"/>
+          <Option type="bool" name="active" value="true"/>
+          <Option type="int" name="type" value="1"/>
+          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
         </Option>
       </Option>
     </Option>
   </Option>
   <Option name="groupBoxes"/>
   <Option type="Map" name="help">
-    <Option type="QString" value="" name=""/>
-    <Option type="QString" value="Sam Marshall" name="ALG_CREATOR"/>
-    <Option type="QString" value="This model preprocesses hospital data from Homeland Security. It removes hospitals that are closed, missing data on the number of available beds, or that have restricted access or special use, such as military hospitals, psychiatric hospitals, or long term care facilities." name="ALG_DESC"/>
-    <Option type="QString" value="Sam Marshall" name="ALG_HELP_CREATOR"/>
-    <Option type="QString" value="1.0" name="ALG_VERSION"/>
-    <Option type="QString" value="https://gsmarshall.github.io/" name="HELP_URL"/>
-    <Option type="QString" value="" name="HomelandSecurityHospitals"/>
-    <Option type="QString" value="CRS into which the hospitals layer should be reprojected" name="InputFeatureCRS"/>
-    <Option type="QString" value="Prepares publically available hospital location data for service area analysis." name="SHORT_DESCRIPTION"/>
-    <Option type="QString" value="Includes only hospitals that meet the following criteria:&#xa;&#x9;- STATUS is OPEN&#xa;&#x9;- BEDS contains data on the hospital's capacity&#xa;&#x9;- TYPE is one of WOMEN, GENERAL ACUTE CARE, CRITICAL ACCESS, or CHILDREN." name="native:extractbyexpression_2:Public Hospitals"/>
+    <Option type="QString" name="" value=""/>
+    <Option type="QString" name="ALG_CREATOR" value="Sam Marshall"/>
+    <Option type="QString" name="ALG_DESC" value="This model preprocesses hospital data from Homeland Security. It removes hospitals that are closed, missing data on the number of available beds, or that have restricted access or special use, such as military hospitals, psychiatric hospitals, or long term care facilities."/>
+    <Option type="QString" name="ALG_HELP_CREATOR" value="Sam Marshall"/>
+    <Option type="QString" name="ALG_VERSION" value="1.0"/>
+    <Option type="QString" name="HELP_URL" value="https://gsmarshall.github.io/"/>
+    <Option type="QString" name="HomelandSecurityHospitals" value=""/>
+    <Option type="QString" name="InputFeatureCRS" value="CRS into which the hospitals layer should be reprojected"/>
+    <Option type="QString" name="SHORT_DESCRIPTION" value="Prepares publically available hospital location data for service area analysis."/>
+    <Option type="QString" name="native:extractbyexpression_2:Public Hospitals" value="Includes only hospitals that meet the following criteria:&#xa;&#x9;- STATUS is OPEN&#xa;&#x9;- BEDS contains data on the hospital's capacity&#xa;&#x9;- TYPE is one of WOMEN, GENERAL ACUTE CARE, CRITICAL ACCESS, or CHILDREN."/>
   </Option>
   <Option name="modelVariables"/>
-  <Option type="QString" value="Middlebury" name="model_group"/>
-  <Option type="QString" value="PreprocessHospitals" name="model_name"/>
+  <Option type="QString" name="model_group" value="Middlebury"/>
+  <Option type="QString" name="model_name" value="PreprocessHospitals"/>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="InputFeatureCRS">
-      <Option type="QString" value="EPSG:4269" name="default"/>
+      <Option type="QString" name="default" value="EPSG:4269"/>
       <Option type="invalid" name="defaultGui"/>
-      <Option type="QString" value="Input Feature CRS" name="description"/>
-      <Option type="int" value="2" name="flags"/>
-      <Option type="QString" value="CRS into which the hospitals layer should be reprojected" name="help"/>
+      <Option type="QString" name="description" value="Input Feature CRS"/>
+      <Option type="int" name="flags" value="2"/>
+      <Option type="QString" name="help" value="CRS into which the hospitals layer should be reprojected"/>
       <Option name="metadata"/>
-      <Option type="QString" value="InputFeatureCRS" name="name"/>
-      <Option type="QString" value="crs" name="parameter_type"/>
+      <Option type="QString" name="name" value="InputFeatureCRS"/>
+      <Option type="QString" name="parameter_type" value="crs"/>
     </Option>
     <Option type="Map" name="native:extractbyexpression_2:Public Hospitals">
-      <Option type="bool" value="true" name="create_by_default"/>
-      <Option type="int" value="-1" name="data_type"/>
+      <Option type="bool" name="create_by_default" value="true"/>
+      <Option type="int" name="data_type" value="-1"/>
       <Option type="invalid" name="default"/>
       <Option type="invalid" name="defaultGui"/>
-      <Option type="QString" value="Public Hospitals" name="description"/>
-      <Option type="int" value="0" name="flags"/>
-      <Option type="QString" value="" name="help"/>
+      <Option type="QString" name="description" value="Public Hospitals"/>
+      <Option type="int" name="flags" value="0"/>
+      <Option type="QString" name="help" value=""/>
       <Option name="metadata"/>
-      <Option type="QString" value="native:extractbyexpression_2:Public Hospitals" name="name"/>
-      <Option type="QString" value="sink" name="parameter_type"/>
-      <Option type="bool" value="false" name="supports_append"/>
-      <Option type="bool" value="true" name="supports_non_file_outputs"/>
+      <Option type="QString" name="name" value="native:extractbyexpression_2:Public Hospitals"/>
+      <Option type="QString" name="parameter_type" value="sink"/>
+      <Option type="bool" name="supports_append" value="false"/>
+      <Option type="bool" name="supports_non_file_outputs" value="true"/>
     </Option>
   </Option>
   <Option name="parameterOrder"/>
   <Option type="Map" name="parameters">
     <Option type="Map" name="InputFeatureCRS">
-      <Option type="QString" value="" name="color"/>
+      <Option type="QString" name="color" value=""/>
       <Option type="Map" name="comment">
-        <Option type="QString" value="" name="color"/>
-        <Option type="QString" value="" name="component_description"/>
-        <Option type="double" value="60" name="component_height"/>
-        <Option type="double" value="460" name="component_pos_x"/>
-        <Option type="double" value="-21" name="component_pos_y"/>
-        <Option type="double" value="100" name="component_width"/>
-        <Option type="bool" value="true" name="outputs_collapsed"/>
-        <Option type="bool" value="true" name="parameters_collapsed"/>
+        <Option type="QString" name="color" value=""/>
+        <Option type="QString" name="component_description" value=""/>
+        <Option type="double" name="component_height" value="60"/>
+        <Option type="double" name="component_pos_x" value="460"/>
+        <Option type="double" name="component_pos_y" value="-21"/>
+        <Option type="double" name="component_width" value="100"/>
+        <Option type="bool" name="outputs_collapsed" value="true"/>
+        <Option type="bool" name="parameters_collapsed" value="true"/>
       </Option>
-      <Option type="QString" value="InputFeatureCRS" name="component_description"/>
-      <Option type="double" value="30" name="component_height"/>
-      <Option type="double" value="217.60000000000002" name="component_pos_x"/>
-      <Option type="double" value="154.39999999999998" name="component_pos_y"/>
-      <Option type="double" value="200" name="component_width"/>
-      <Option type="QString" value="InputFeatureCRS" name="name"/>
-      <Option type="bool" value="true" name="outputs_collapsed"/>
-      <Option type="bool" value="true" name="parameters_collapsed"/>
+      <Option type="QString" name="component_description" value="InputFeatureCRS"/>
+      <Option type="double" name="component_height" value="30"/>
+      <Option type="double" name="component_pos_x" value="217.60000000000002"/>
+      <Option type="double" name="component_pos_y" value="154.39999999999998"/>
+      <Option type="double" name="component_width" value="200"/>
+      <Option type="QString" name="name" value="InputFeatureCRS"/>
+      <Option type="bool" name="outputs_collapsed" value="true"/>
+      <Option type="bool" name="parameters_collapsed" value="true"/>
     </Option>
   </Option>
 </Option>
