@@ -4,4 +4,5 @@ Potential updates/upgrades:
 - Add page for personal cartography work, with a bit of writing about it
   - Maybe restructure page so that the home page is more of a general portfolio page and then links to a specific OpenSource page
 - Add land acknowledgement/data disclaimer (talk to Jacob?)
+  - link to other cartographers/cool people doing cool geography stuff
 - Add profile picture to github page
