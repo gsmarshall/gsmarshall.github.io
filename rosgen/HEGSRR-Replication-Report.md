@@ -139,7 +139,7 @@ Level II Stream Type|C4b
 
 
 Table 4. Rosgen Classification Metrics from Kasprak et al. (2016)
-|Criteria|Value
+Criteria|Value
 ---|---
 Slope|2.16
 Width / Depth Ratio|30.53
