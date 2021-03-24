@@ -33,7 +33,8 @@ Stream classification is an important tool for understanding the geomorphic form
 Describe all elements of the analytical plan of the original study that are relevant to the research questions and hypotheses being re-examined by the replication. Include information for each of the following sub-sections as appropriate.
 
 ### Sampling Plan and Data Description
-
+||
+|---|
 |![John Day Watershed](assets/john_day_watershed.png)|
 |![Study Site Elevation](assets/elevation_study_site.png)|
 |*Figure 1: Study site detail and location within the John Day Watershed*|
@@ -62,19 +63,24 @@ I use a 1-meter resolution LiDAR-derived DEM, available for download [here](asse
 ### Procedure
 The procedure for this replication uses the same definitions of ratios and classification workflow as [Rosgen (1994)](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019) (Fig. 2). In contrast with both Rosgen (1994) and Kasprak et al. (2016), this replication uses a LiDAR-derived DEM rather than field surveys to calculate terrain-based metrics of channel form. Stream and valley boundaries were digitized by hand in order to produce centerlines used to derive the length and longitudinal profile of the reach, and a single transect located near the CHaMP survey point was created in order to derive a cross-sectional profile of the reach. The elevation along the longitudinal profile and cross section was then extracted and used to calculate the necessary metrics.s
 
-
+||
+|---|
 |![Rosgen Classification Workflow](assets/rosgen_level2.jpg)|
 |*Figure 2: Level II Rosgen Classification workflow*|
 
 The region of analysis consists of a buffer around the CHaMP survey point with a radius of 10 times the bankfull width of the stream reach as measured by the CHaMP survey. This buffer as well as visualizations of elevation and slope (Fig. 3) were created in GRASS using [a model](procedure/code/visualize.gxm) provided by [Joseph Holler](https://github.com/josephholler). Stream and valley centerlines were digitized by hand at 1:1500 scale using maps of elevation and slope to help visually identify the location of river banks and valley edges. Three sets of bank and valley boundaries, all of which extended beyond the buffer region, were created independently and then patched together and averaged in order to produce a final mean centerline (Fig. 4) for the stream and valley using [a model](assets/center_line_length_no_clip.gxm) provided by [Joseph Holler](https://github.com/josephholler). A set of transects of the valley centerline, spaced 50 meters apart, were then created, and the transect closest to the CHaMP point was selected to produce a single cross-sectional profile of the reach. This workflow was created by Zach Hilgendorf and is available [here](assets/1-Research_Protocol_GRASS.pdf)
 
 
+|||
+|---|---|
 |![Elevation at Study Site](assets/elevation_study_site.png)|![Slope at Study Site](assets/slope_study_site.png)|
 |*Figure 3a: Map of elevation at the study site*|*Figure 3b: Slope at the study site*|
 
-
+|||
+|---|---|
 |![Raw bank centerlines](assets/banks_lines.png)|![Raw valley centerlines](assets/valley_lines.png)|
 |*Figure 4a: Stream centerlines from each digitization and final mean centerline*|*Figure 4b: Valley centerlines from each digitization and final mean centerline*
+
 
 The cross section and longitudinal profile data were then brought into R and used to calculate and visualize slope, sinuosity, width to depth ratio, and entrenchment ratio with the help of [this script](assets/2-ProfileViewer.Rmd) created by Zach Hilgendorf. The methods used to calculate these metrics are as follows:
 - sinuosity: channel length / valley length
@@ -91,6 +97,7 @@ The success of the replication is determined by comparing my classification of t
 My analysis successfully replicated that of Kasprak et al. (2016), classifying the selected reach as C4b. With the exception of sinuosity, all of the metrics calculated in this replication fell within the ranges specified by [Rosgen (1994)](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019) (Tables 2 and 3), and some closely matched those calculated by Kasprak et al. (2016) (Table 4). This correlation is less surprising for metrics that were calculated using the same CHaMP data (like width/depth and entrenchment ratios), but is also present for slope.
 
 At 1.06, my calculated sinuosity value differs from that specified for class C streams and from that measured by Kasprak et al. (2016). This is likely due largely to a combination of errors in the process of digitizing banks and processing the stream and valley centerlines which are discussed below. However, the Rosgen Classification System allows for a deviation of &plusmn0.2 units for sinuosity values, so the C4b classification is still entirely reasonable.
+
 
 Table 1. Site Measurements
 All measurements are in meters unless otherwise indicated
@@ -111,29 +118,34 @@ Median Channel Material Particle Diameter (mm)|55|CHaMP survey
 |![Cross section](assets/cross_section_avg_depth1.png)|
 |*Figure 5: Cross sectional profile of the selected transect, with the valley depth and mean bankfull depth highlighted*|
 
+
 Table 2. Rosgen Level I Classification
-|Criteria|Value|
-|:---:|:---:|
-|Entrenchment Ratio|8.3|
-|Width / Depth Ratio|33|
-|Sinuosity| 1.06|
-|Level I Stream Type|C|
+
+Criteria|Value
+---|---
+Entrenchment Ratio|8.3
+Width / Depth Ratio|33
+Sinuosity| 1.06
+Level I Stream Type|C
+
 
 Table 3. Rosgen Level II Classification
-|Criteria|Value|
-|:---:|:---:|
-|Slope|2.13|
-|Channel Material|gravel|
-|Level II Stream Type|C4b|
+
+|Criteria|Value
+---|---
+Slope|2.13
+Channel Material|gravel
+Level II Stream Type|C4b
+
 
 Table 4. Rosgen Classification Metrics from Kasprak et al. (2016)
-|Criteria|Value|
-|:---:|:---:|
-|Slope|2.16|
-|Width / Depth Ratio|30.53|
-|Entrenchment Ratio|not provided|
-|Sinuosity | 1.22|
-|Level II Stream Type|C4b|
+|Criteria|Value
+---|---
+Slope|2.16
+Width / Depth Ratio|30.53
+Entrenchment Ratio|not provided
+Sinuosity | 1.22
+Level II Stream Type|C4b
 
 
 ## Unplanned Deviations from the Protocol
