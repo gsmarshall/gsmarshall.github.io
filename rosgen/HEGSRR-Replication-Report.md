@@ -95,7 +95,7 @@ At 1.06, my calculated sinuosity value differs from that specified for class C s
 Table 1. Site Measurements
 All measurements are in meters unless otherwise indicated
 |Variable|Value|Source|
-|:---:|:---:|:---:|
+|---|---|---|
 |Bankfull Width|8|cross section|
 |Mean Bankfull Depth|0.243|CHaMP survey|
 |Max Bankfull Depth|0.788|CHaMP survey|
