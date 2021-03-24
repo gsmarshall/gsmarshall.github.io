@@ -34,7 +34,7 @@ Describe all elements of the analytical plan of the original study that are rele
 
 ### Sampling Plan and Data Description
 | |
-| :-: |
+|:-:|
 |![John Day Watershed](assets/john_day_watershed.png)|
 |![Study Site Elevation](assets/elevation_study_site.png)|
 |*Figure 1: Study site detail and location within the John Day Watershed*|
@@ -64,19 +64,19 @@ I use a 1-meter resolution LiDAR-derived DEM, available for download [here](asse
 The procedure for this replication uses the same definitions of ratios and classification workflow as [Rosgen (1994)](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019) (Fig. 2). In contrast with both Rosgen (1994) and Kasprak et al. (2016), this replication uses a LiDAR-derived DEM rather than field surveys to calculate terrain-based metrics of channel form. Stream and valley boundaries were digitized by hand in order to produce centerlines used to derive the length and longitudinal profile of the reach, and a single transect located near the CHaMP survey point was created in order to derive a cross-sectional profile of the reach. The elevation along the longitudinal profile and cross section was then extracted and used to calculate the necessary metrics.s
 
 | |
-| :-: |
+|:-:|
 |![Rosgen Classification Workflow](assets/rosgen_level2.jpg)|
 |*Figure 2: Level II Rosgen Classification workflow*|
 
 The region of analysis consists of a buffer around the CHaMP survey point with a radius of 10 times the bankfull width of the stream reach as measured by the CHaMP survey. This buffer as well as visualizations of elevation and slope (Fig. 3) were created in GRASS using [a model](procedure/code/visualize.gxm) provided by [Joseph Holler](https://github.com/josephholler). Stream and valley centerlines were digitized by hand at 1:1500 scale using maps of elevation and slope to help visually identify the location of river banks and valley edges. Three sets of bank and valley boundaries, all of which extended beyond the buffer region, were created independently and then patched together and averaged in order to produce a final mean centerline (Fig. 4) for the stream and valley using [a model](assets/center_line_length_no_clip.gxm) provided by [Joseph Holler](https://github.com/josephholler). A set of transects of the valley centerline, spaced 50 meters apart, were then created, and the transect closest to the CHaMP point was selected to produce a single cross-sectional profile of the reach. This workflow was created by Zach Hilgendorf and is available [here](assets/1-Research_Protocol_GRASS.pdf)
 
 | | |
-| :-: | :-: |
+|:-:|:-:|
 |![Elevation at Study Site](assets/elevation_study_site.png)|![Slope at Study Site](assets/slope_study_site.png)|
 |*Figure 3a: Map of elevation at the study site*|*Figure 3b: Slope at the study site*|
 
 | | |
-| :-: | :-: |
+|:-:|:-:|
 |![Raw bank centerlines](assets/banks_lines.png)|![Raw valley centerlines](assets/valley_lines.png)|
 |*Figure 4a: Stream centerlines from each digitization and final mean centerline*|*Figure 4b: Valley centerlines from each digitization and final mean centerline*
 
@@ -98,45 +98,45 @@ At 1.06, my calculated sinuosity value differs from that specified for class C s
 
 Table 1. Site Measurements
 All measurements are in meters unless otherwise indicated
-| Variable | Value | Source |
-| :-: | :-: | :-: |
-| Bankfull Width | 8 | cross section |
-| Mean Bankfull Depth | 0.243 | CHaMP survey |
-| Max Bankfull Depth | 0.788 | CHaMP survey |
-| Valley Width | 66 | cross section |
-| Valley Depth | 1.58 | cross section |
-| Stream/River Length | 183.51 | longitudinal profile |
-| Valley Length | 173.11 | longitudinal profile|
-| Median Channel Material Particle Diameter (mm) | 55 | CHaMP survey |
+|Variable|Value|Source|
+|:-:|:-:|:-:|
+|Bankfull Width|8|cross section|
+|Mean Bankfull Depth|0.243|CHaMP survey|
+|Max Bankfull Depth|0.788|CHaMP survey|
+|Valley Width|66|cross section|
+|Valley Depth|1.58|cross section|
+|Stream/River Length|183.51|longitudinal profile|
+|Valley Length|173.11|longitudinal profile|
+|Median Channel Material Particle Diameter (mm)|55|CHaMP survey|
 
 | |
-| :-: |
+|:-:|
 |![Cross section](assets/cross_section_avg_depth1.png)|
 |*Figure 5: Cross sectional profile of the selected transect, with the valley depth and mean bankfull depth highlighted*|
 
 Table 2. Rosgen Level I Classification
-| Criteria | Value |
-| :-: | :-: |
-| Entrenchment Ratio | 8.3 |
-| Width / Depth Ratio | 33 |
-| Sinuosity | 1.06 |
-| Level I Stream Type | C |
+|Criteria|Value|
+|:-:|:-:|
+|Entrenchment Ratio|8.3|
+|Width / Depth Ratio|33|
+|Sinuosity| 1.06|
+|Level I Stream Type|C|
 
 Table 3. Rosgen Level II Classification
-| Criteria | Value |
-| :-: | :-: |
-| Slope | 2.13 |
-| Channel Material | gravel |
-| Level II Stream Type | C4b |
+|Criteria|Value|
+|:-:|:-:|
+|Slope|2.13|
+|Channel Material|gravel|
+|Level II Stream Type|C4b|
 
 Table 4. Rosgen Classification Metrics from Kasprak et al. (2016)
-| Criteria | Value |
-| :-: | :-: |
-| Slope | 2.16 |
-| Width / Depth Ratio | 30.53 |
-| Entrenchment Ratio | not provided |
-| Sinuosity | 1.22 |
-| Level II Stream Type | C4b |
+|Criteria|Value|
+|:-:|:-:|
+|Slope|2.16|
+|Width / Depth Ratio|30.53|
+|Entrenchment Ratio|not provided|
+|Sinuosity | 1.22|
+|Level II Stream Type|C4b|
 
 
 ## Unplanned Deviations from the Protocol
