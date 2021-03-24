@@ -13,6 +13,7 @@ This website contains my work for [GEOG 323 - Open Source GIScience](https://gis
 
 Lab assignments focus on reproducing and replicating GIS research, as well as creating GIS tools for use by future classes and the general public.
 - [Gravity Model of Spatial Interaction in QGIS](gravity/gravity.md)
+- [Rosgen Classification of Natural Rivers](RE-rosgen/docs/reports/HEGSRR-Replication-Report.md)
 
 
 ## Blog Posts
