@@ -1,0 +1,2 @@
+- expand/add to 'variables' and 'analytical Specification' sections
+- edit metadata to reflect added files
