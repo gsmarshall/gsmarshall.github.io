@@ -94,16 +94,17 @@ At 1.06, my calculated sinuosity value differs from that specified for class C s
 
 Table 1. Site Measurements
 All measurements are in meters unless otherwise indicated
-|Variable|Value|Source|
-|---|---|---|
-|Bankfull Width|8|cross section|
-|Mean Bankfull Depth|0.243|CHaMP survey|
-|Max Bankfull Depth|0.788|CHaMP survey|
-|Valley Width|66|cross section|
-|Valley Depth|1.58|cross section|
-|Stream/River Length|183.51|longitudinal profile|
-|Valley Length|173.11|longitudinal profile|
-|Median Channel Material Particle Diameter (mm)|55|CHaMP survey|
+
+Variable|Value|Source
+---|---|---
+Bankfull Width|8|cross section
+Mean Bankfull Depth|0.243|CHaMP survey
+Max Bankfull Depth|0.788|CHaMP survey
+Valley Width|66|cross section
+Valley Depth|1.58|cross section
+Stream/River Length|183.51|longitudinal profile
+Valley Length|173.11|longitudinal profile
+Median Channel Material Particle Diameter (mm)|55|CHaMP survey
 
 | |
 |:---:|
