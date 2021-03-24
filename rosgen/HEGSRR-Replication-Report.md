@@ -35,8 +35,8 @@ Describe all elements of the analytical plan of the original study that are rele
 ### Sampling Plan and Data Description
 | |
 | :-: |
-|![John Day Watershed](assets/john_day_watershed.PNG)|
-|![Study Site Elevation](assets/elevation_study_site.PNG)|
+|![John Day Watershed](assets/john_day_watershed.png)|
+|![Study Site Elevation](assets/elevation_study_site.png)|
 |*Figure 1: Study site detail and location within the John Day Watershed*|
 
 I analyze a single reach of Vinegar Creek, shown above. This point was randomly selected from the 33 sites analyzed by [Kasprak et al. (2016)](https://dx.plos.org/10.1371/journal.pone.0150293), which were selected using a stratified random sampling of CHaMP survey points. Field-based measurements, including that of topographic survey DEMs, were conducted by trained technicians as part of CHaMP surveys in 2012 and 2013. Measurements involving channel cross sections were determined by averaging cross sections spaced at one meter intervals along each reach (Kasprak et al, 2016, 9). The acquisition date and lineage of other elevation data used by Kasprak et al. (2016) is unclear.
@@ -65,19 +65,19 @@ The procedure for this replication uses the same definitions of ratios and class
 
 | |
 | :-: |
-|![Rosgen Classification Workflow](procedure/protocols/rosgen_level2.jpg)|
+|![Rosgen Classification Workflow](assets/rosgen_level2.jpg)|
 |*Figure 2: Level II Rosgen Classification workflow*|
 
 The region of analysis consists of a buffer around the CHaMP survey point with a radius of 10 times the bankfull width of the stream reach as measured by the CHaMP survey. This buffer as well as visualizations of elevation and slope (Fig. 3) were created in GRASS using [a model](procedure/code/visualize.gxm) provided by [Joseph Holler](https://github.com/josephholler). Stream and valley centerlines were digitized by hand at 1:1500 scale using maps of elevation and slope to help visually identify the location of river banks and valley edges. Three sets of bank and valley boundaries, all of which extended beyond the buffer region, were created independently and then patched together and averaged in order to produce a final mean centerline (Fig. 4) for the stream and valley using [a model](assets/center_line_length_no_clip.gxm) provided by [Joseph Holler](https://github.com/josephholler). A set of transects of the valley centerline, spaced 50 meters apart, were then created, and the transect closest to the CHaMP point was selected to produce a single cross-sectional profile of the reach. This workflow was created by Zach Hilgendorf and is available [here](assets/1-Research_Protocol_GRASS.pdf)
 
 | | |
 | :-: | :-: |
-|![Elevation at Study Site](results/maps/elevation_study_site.PNG)|![Slope at Study Site](results/maps/slope_study_site.PNG)|
+|![Elevation at Study Site](assets/elevation_study_site.png)|![Slope at Study Site](assets/slope_study_site.png)|
 |*Figure 3a: Map of elevation at the study site*|*Figure 3b: Slope at the study site*|
 
 | | |
 | :-: | :-: |
-|![Raw bank centerlines](results/maps/banks_lines.PNG)|![Raw valley centerlines](results/maps/valley_lines.PNG)|
+|![Raw bank centerlines](assets/banks_lines.png)|![Raw valley centerlines](assets/valley_lines.png)|
 |*Figure 4a: Stream centerlines from each digitization and final mean centerline*|*Figure 4b: Valley centerlines from each digitization and final mean centerline*
 
 The cross section and longitudinal profile data were then brought into R and used to calculate and visualize slope, sinuosity, width to depth ratio, and entrenchment ratio with the help of [this script](assets/2-ProfileViewer.Rmd) created by Zach Hilgendorf. The methods used to calculate these metrics are as follows:
@@ -111,7 +111,7 @@ All measurements are in meters unless otherwise indicated
 
 | |
 | :-: |
-|![Cross section](assets/cross_section_avg_depth1.PNG)|
+|![Cross section](assets/cross_section_avg_depth1.png)|
 |*Figure 5: Cross sectional profile of the selected transect, with the valley depth and mean bankfull depth highlighted*|
 
 Table 2. Rosgen Level I Classification
@@ -145,14 +145,14 @@ Due to the location of the survey point and the size of the buffer, I was unable
 
 | |
 |:-:|
-|![Stream and Valley centerlines](assets/stream_valley_centerline.PNG)|
+|![Stream and Valley centerlines](assets/stream_valley_centerline.png)|
 |*Figure 6: Final stream and valley centerlines are roughly consistent in their start and end points*|
 
 The R script used for postprocessing originally calculated slope by averaging the slope values at every point along the longitudinal profile of the reach. However, errors in digitizing the stream banks and artifacts in the elevation data make these values very inconsistent (Fig. 7) and artificially inflate the final slope value: using the original method yields a slope of 4.58%, while using only the start and end points of the reach yields a slope of 2.13%.
 
 | |
 |:-:|
-|![Long Profile Slope](assets/slope_locid17.PNG)|
+|![Long Profile Slope](assets/slope_locid17.png)|
 |*Figure 7: Calculating slope meter-by-meter along the reach yields wildly inconsistent values*|
 
 ## Discussion
