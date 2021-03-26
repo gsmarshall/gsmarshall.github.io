@@ -30,11 +30,9 @@ Stream classification is an important tool for understanding the geomorphic form
 
 ## Analytical Plan
 
-Describe all elements of the analytical plan of the original study that are relevant to the research questions and hypotheses being re-examined by the replication. Include information for each of the following sub-sections as appropriate.
-
 ### Sampling Plan and Data Description
 ||
-|---|
+|:---:|
 |![John Day Watershed](assets/john_day_watershed.png)|
 |![Study Site Elevation](assets/elevation_study_site.png)|
 |*Figure 1: Study site detail and location within the John Day Watershed*|
