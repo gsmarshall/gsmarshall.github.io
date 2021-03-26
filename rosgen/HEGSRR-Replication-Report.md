@@ -31,8 +31,9 @@ Stream classification is an important tool for understanding the geomorphic form
 ## Analytical Plan
 
 ### Sampling Plan and Data Description
+
 ||
-|:---:|
+|---|
 |![John Day Watershed](assets/john_day_watershed.png)|
 |![Study Site Elevation](assets/elevation_study_site.png)|
 |*Figure 1: Study site detail and location within the John Day Watershed*|
