@@ -33,7 +33,7 @@ Stream classification is an important tool for understanding the geomorphic form
 ### Sampling Plan and Data Description
 
 ||
-|---|
+|:---:|
 |![John Day Watershed](assets/john_day_watershed.png)|
 |![Study Site Elevation](assets/elevation_study_site.png)|
 |*Figure 1: Study site detail and location within the John Day Watershed*|
@@ -63,7 +63,7 @@ I use a 1-meter resolution LiDAR-derived DEM, available for download [here](asse
 The procedure for this replication uses the same definitions of ratios and classification workflow as [Rosgen (1994)](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019) (Fig. 2). In contrast with both Rosgen (1994) and Kasprak et al. (2016), this replication uses a LiDAR-derived DEM rather than field surveys to calculate terrain-based metrics of channel form. Stream and valley boundaries were digitized by hand in order to produce centerlines used to derive the length and longitudinal profile of the reach, and a single transect located near the CHaMP survey point was created in order to derive a cross-sectional profile of the reach. The elevation along the longitudinal profile and cross section was then extracted and used to calculate the necessary metrics.s
 
 ||
-|---|
+|:---:|
 |![Rosgen Classification Workflow](assets/rosgen_level2.jpg)|
 |*Figure 2: Level II Rosgen Classification workflow*|
 
@@ -71,12 +71,12 @@ The region of analysis consists of a buffer around the CHaMP survey point with a
 
 
 |||
-|---|---|
+|:---:|:---:|
 |![Elevation at Study Site](assets/elevation_study_site.png)|![Slope at Study Site](assets/slope_study_site.png)|
 |*Figure 3a: Map of elevation at the study site*|*Figure 3b: Slope at the study site*|
 
 |||
-|---|---|
+|:---:|:---:|
 |![Raw bank centerlines](assets/banks_lines.png)|![Raw valley centerlines](assets/valley_lines.png)|
 |*Figure 4a: Stream centerlines from each digitization and final mean centerline*|*Figure 4b: Valley centerlines from each digitization and final mean centerline*
 
