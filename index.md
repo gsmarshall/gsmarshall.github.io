@@ -14,7 +14,7 @@ This website contains my work for [GEOG 323 - Open Source GIScience](https://gis
 Lab assignments focus on reproducing and replicating GIS research, as well as creating GIS tools for use by future classes and the general public.
 - [Gravity Model of Spatial Interaction in QGIS](gravity/gravity.md)
 - [Rosgen Classification of Natural Rivers](rosgen/HEGSRR-Replication-Report.md)
-- [Urban Resilience in Dar es Salaam with PostGIS](dsm_resilence/dsm_resilience_report.md)
+- [Urban Resilience in Dar es Salaam with PostGIS](dsm_resilience/dsm_resilience_report.md)
 
 
 ## Blog Posts
