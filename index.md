@@ -15,6 +15,7 @@ Lab assignments focus on reproducing and replicating GIS research, as well as cr
 - [Gravity Model of Spatial Interaction in QGIS](gravity/gravity.md)
 - [Rosgen Classification of Natural Rivers](rosgen/HEGSRR-Replication-Report.md)
 - [Urban Resilience in Dar es Salaam with PostGIS](dsm_resilience/dsm_resilience_report.md)
+- [Vulnerability Modeling for sub-Saharan Africa](rp_malcomb/RP-Malcomb-Report.md)
 
 
 ## Blog Posts
