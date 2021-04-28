@@ -24,3 +24,4 @@ Blog posts contain my thoughts and reflections on GIS methodology and ethics, cr
 - [What is Open Source GIS?](blogs/open-source.md)
 - [GIS as a Science](blogs/gis-science.md)
 - [Error and Uncertainty in GIS](blogs/error-uncertainty.md)
+- [Twitter Spatial Analysis Techniques](blogs/twitter-wildfires.md)
