@@ -26,3 +26,4 @@ Blog posts contain my thoughts and reflections on GIS methodology and ethics, cr
 - [Error and Uncertainty in GIS](blogs/error-uncertainty.md)
 - [Twitter Spatial Analysis Techniques](blogs/twitter-wildfires.md)
 - [Humanitarian GIS and Crowdsourced Geographic Data](blogs/humanitarian-gis.md)
+- [Reproducibility vs Ethics](blogs/reproducibility-ethics.md)
