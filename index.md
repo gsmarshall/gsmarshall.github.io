@@ -17,6 +17,7 @@ Lab assignments focus on reproducing and replicating GIS research, as well as cr
 - [Urban Resilience in Dar es Salaam with PostGIS](dsm_resilience/dsm_resilience_report.md)
 - [Vulnerability Modeling for sub-Saharan Africa](rp_malcomb/RP-Malcomb-Report.md)
 - [Spatial, Temporal and Content Analysis of Twitter Data](re_dorian/RE-Dorian-Report.md)
+- [Rapidly Measuring Spatial Accessibility of COVID-19 Healthcare Resources](rp_kang/RP-Kang-Report.md)
 
 
 ## Blog Posts
