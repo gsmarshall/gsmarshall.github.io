@@ -95,7 +95,7 @@ The success of the replication is determined by comparing my classification of t
 
 My analysis successfully replicated that of Kasprak et al. (2016), classifying the selected reach as C4b. With the exception of sinuosity, all of the metrics calculated in this replication fell within the ranges specified by [Rosgen (1994)](https://linkinghub.elsevier.com/retrieve/pii/0341816294900019) (Tables 2 and 3), and some closely matched those calculated by Kasprak et al. (2016) (Table 4). This correlation is less surprising for metrics that were calculated using the same CHaMP data (like width/depth and entrenchment ratios), but is also present for slope.
 
-At 1.06, my calculated sinuosity value differs from that specified for class C streams and from that measured by Kasprak et al. (2016). This is likely due largely to a combination of errors in the process of digitizing banks and processing the stream and valley centerlines which are discussed below. However, the Rosgen Classification System allows for a deviation of &plusmn0.2 units for sinuosity values, so the C4b classification is still entirely reasonable.
+At 1.06, my calculated sinuosity value differs from that specified for class C streams and from that measured by Kasprak et al. (2016). This is likely due largely to a combination of errors in the process of digitizing banks and processing the stream and valley centerlines which are discussed below. However, the Rosgen Classification System allows for a deviation of &plusmn;0.2 units for sinuosity values, so the C4b classification is still entirely reasonable.
 
 
 Table 1. Site Measurements
@@ -138,6 +138,7 @@ Level II Stream Type|C4b
 
 
 Table 4. Rosgen Classification Metrics from Kasprak et al. (2016)
+
 Criteria|Value
 ---|---
 Slope|2.16
@@ -170,6 +171,8 @@ The results of this replication demonstrate the potential viability of a GIS-bas
 Two of the most obvious sources of error and inconsistency in this study are the reliance on hand digitization done by an untrained student (myself) and the subsequent inability to clip the digitized banks and valley lines to ensure they cover the exact same length of stream. I am not trained as a geomorphologist and do not have much experience interpreting elevation or slope maps, and it was difficult at times for me to identify stream features and decide how to digitize them. While the use of three independent sets of digitized banks mitigates this to some degree, it is still likely a significant source of error and could present a barrier to implementing this methodology at scale in a consistent and cost-effective way. Furthermore, not ensuring the stream and valley boundaries cover the same reach makes the sinuosity metric incredibly unreliable. In this study they ended up being similarly placed partly by luck and partly because of how I digitized each set of features, but there was nothing in the workflow to ensure this was the case. A more reliable and scalable workflow would likely ensure that each set of features covered the exact same reach through some sort of clipping operation in a GIS.
 
 The temporal scale of the input data used in this study also introduces uncertainty. While the LiDAR data were acquired in 2008, the earliest CHaMP surveys present in the data did not occur until 2011, and Kasprak et al. (2016) use data from 2012 and 2013 in their analysis. Rivers are extremely dynamic and can change dramatically in this time period, and this decreases the likelihood that the classification will be accurate with respect to either the river conditions as of 2008 or the Kasprak analysis from 2012 - 2013. The amount of uncertainty introduced here is partly random and partly a function of the stream type (since some stream forms naturally change faster than others), but is difficult to predict in either case. A consistent and reliable classification would require more temporally consistent data.
+
+Finally, the location of the survey point along the stream introduces uncertainty as to how representative the point is of the stream as a whole. The section of stream studied in this replication is less sinuous than the reaches immediately upstream and downstream of it are, so shifting the location or length of the study site may have a meaningful impact on the measured sinuosity and slope. This is an interesting example of the modifiable areal unit problem, and future study could examine the extent to which the choice of reach length may impact stream classification.
 
 
 ## Conclusion

@@ -28,7 +28,7 @@ The filtered hospital locations (the target features) are then aggregated by the
 
 ## Gravity Model Details
 The gravity model (Fig. 3) accepts as input two sets of vector features, one representing the source features and the other representing the target features, and produces as output a single vector layer representing the likely zone of influence that each target feature occupies. Each input layer must have at least two fields: one that uniquely identifies each feature and one that contains a weight value for each feature. The potential for interaction between any pair of source and target features is calculated based the following formula:
-`(sourceWeight)^&lambda; * (targetWeight)^&alpha; / (distance)^&beta;`
+(sourceWeight)^&lambda; * (targetWeight)^&alpha; / (distance)^&beta;
 where &lambda;, &alpha;, and &beta; are constant parameters used to customize the behavior of the model, as described in <a href="https://transportgeography.org/contents/methods/spatial-interactions-gravity-model/">The Geography of Transport Systems</a> (Rodrigue).
 
 Each source feature is assigned to the target feature with which it has the most potential interaction, and the final service areas are created by grouping towns that share a target feature, as in the following model, which is available for download [here](assets/models/GravityModel.model3).
@@ -45,7 +45,7 @@ We can loosely assess the quality of the model by comparing the [hospital servic
 |Predicted Hospital Catchments|
 |:---:|
 |[![Map of predicted hospital catchments](assets/images/leaflet_map.PNG)](assets/qgis2web_2021_03_08-21_44_27_115099)|
-|*__Figure 4:__ An interactive version of this map is available [here](assets/qgis2web_2021_03_08-21_44_27_115099)*|
+|*__Figure 4:__ Hospital catchments predicted by the gravity model. An interactive version of this map is available [here](assets/qgis2web_2021_03_08-21_44_27_115099)*|
 
 
 ## Data Sources
