@@ -55,14 +55,14 @@
             zoomControl:true, maxZoom:28, minZoom:1
         })
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://gsmarshall.github.io" target="_blank">Sam Marshall</a> &middot; <a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         var bounds_group = new L.featureGroup([]);
         function setBounds() {
             if (bounds_group.getLayers().length) {
                 map.fitBounds(bounds_group.getBounds());
             }
-            map.setMaxBounds(map.getBounds());
+            //map.setMaxBounds(map.getBounds());
         }
         map.createPane('pane_OSMStandard_0');
         map.getPane('pane_OSMStandard_0').style.zIndex = 400;
@@ -95,29 +95,8 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['HSA93'] !== null ? autolinker.link(feature.properties['HSA93'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">HSANAME</th>\
+                        <th scope="row">HSA Name</th>\
                         <td>' + (feature.properties['HSANAME'] !== null ? autolinker.link(feature.properties['HSANAME'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['STATE'] !== null ? autolinker.link(feature.properties['STATE'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['HRR93'] !== null ? autolinker.link(feature.properties['HRR93'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['HRR93_NAME'] !== null ? autolinker.link(feature.properties['HRR93_NAME'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Persons90'] !== null ? autolinker.link(feature.properties['Persons90'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['hosp_cnt'] !== null ? autolinker.link(feature.properties['hosp_cnt'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['HSA_label'] !== null ? autolinker.link(feature.properties['HSA_label'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
@@ -131,7 +110,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 2.0, 
+                weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(223,222,245,0.22745098039215686)',
@@ -170,15 +149,11 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">TargetID</th>\
-                        <td>' + (feature.properties['TargetID'] !== null ? autolinker.link(feature.properties['TargetID'].toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <th scope="row">sumBeds</th>\
+                        <th scope="row">Total Beds</th>\
                         <td>' + (feature.properties['sumBeds'] !== null ? autolinker.link(feature.properties['sumBeds'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">pop_served</th>\
+                        <th scope="row">Population Served</th>\
                         <td>' + (feature.properties['pop_served'] !== null ? autolinker.link(feature.properties['pop_served'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
@@ -193,7 +168,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 2.0, 
+                weight: 2.0,
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(220,213,229,0.25882352941176473)',
@@ -232,11 +207,11 @@
             });
             var popupContent = '<table>\
                     <tr>\
-                        <th scope="row">ID</th>\
+                        <th scope="row">Hospital Cluster ID</th>\
                         <td>' + (feature.properties['ID'] !== null ? autolinker.link(feature.properties['ID'].toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <th scope="row">sum_beds</th>\
+                        <th scope="row">Total Beds</th>\
                         <td>' + (feature.properties['sum_beds'] !== null ? autolinker.link(feature.properties['sum_beds'].toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
