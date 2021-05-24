@@ -8,6 +8,7 @@ My name is Sam Marshall and I'm a junior at Middlebury College majoring in compu
 
 This website contains my work for [GEOG 323 - Open Source GIScience](https://gis4dev.github.io/), as well as a small collection of other projects related to spatial analysis, cartography, and GIS. You can view my GitHub profile [here](https://github.com/gsmarshall).
 
+[Final Revisions as of 5/23/21](revisions/revisions_05_23_21.md)
 
 ## GIS Analyses
 

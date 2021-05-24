@@ -92,7 +92,7 @@ Include any referenced studies or materials in the [AAG Style of author-date ref
 
 ### Acknowledgments
 
-Thanks to [Emma Clinton](https://emmaclinton.github.io/) for discovering and sharing the idea of studying Twitter activity related to tornado warnings. [Joseph Holler](https://github.com/josephholler) provided the methods and code necessary to conduct the analysis.
+Thanks to [Emma Clinton](https://emmaclinton.github.io/) for discovering and sharing the idea of studying Twitter activity related to tornado warnings. [Joseph Holler](https://github.com/josephholler) provided the guidance and code necessary to conduct the analysis.
 
 
 ####  Report Template References & License
