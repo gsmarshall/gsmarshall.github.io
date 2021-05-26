@@ -2,9 +2,10 @@
 layout: page
 title: Impervious Landcover in Flood-Prone Areas of Dar es Salaam
 ---
+Sam Marshall and Hannah Rigdon
 
 ![floodplain map](assets/flooding.png)
-Authors: Sam Marshall and Hannah Rigdon
+
 
 ## Question and Overview
 
